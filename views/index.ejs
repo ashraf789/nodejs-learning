@@ -1,9 +1,29 @@
-<html>
-    <head>
-        <title> Node js learning </title>
-        <link href="assets/style.css" type="text/css" rel="stylesheet"/> 
-    </head>
-    <body>
-        <h1>Hello world! </h1>
-    </body>
+<html ng-app="myngapp">
+
+<head>
+    <title>
+        The MEAN stack
+    </title>
+    <link href="/assets/css/style.css" rel="stylesheet" type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.8.0/angular.js"> </script>
+</head>
+
+<body ng-controller="mainCnt as vm">
+    {{vm.message}}
+    </br></br>
+    <input type="text" ng-model="vm.firstname" />
+
+    </br>
+    <ul>
+        <li ng-repeat="person in vm.people">
+            {{person}}
+        </li>
+    </ul>
+    </br>
+
+    {{ vm.firstname }}
+    <!-- all scripts  -->
+    <script src="/assets/js/app.js"> </script>
+</body>
+
 </html>
