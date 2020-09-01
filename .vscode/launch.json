@@ -1,0 +1,21 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "1.0.0",
+    "configurations": [
+
+        {
+            "name": "Launch main",
+            "program": "main.js",
+            "type": "node",
+            "request": "launch",
+        },
+        {
+            "name": "Launch app.js",
+            "program": "app.js",
+            "type": "node",
+            "request": "launch",
+        }
+    ]
+}
